@@ -492,7 +492,7 @@ header {
   
   width: 16px;
   height: 16px;
-  fill:black;
+  fill:white;
 
 
   /* fill: var(--social-icon); */
@@ -649,7 +649,7 @@ address {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: var(--social-icon-hover);
 }
 
@@ -727,7 +727,7 @@ address {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: var(--bj-color);
 }
 
@@ -746,7 +746,7 @@ address {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
   border-radius: 4px;
 }
 
@@ -1102,3 +1102,23 @@ address {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.text-footer{
+  width: 264px;
+  height: 72px;
+  font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
+color: var(--bj-team);
+}
+/* .form-label{
+  font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
+} */
