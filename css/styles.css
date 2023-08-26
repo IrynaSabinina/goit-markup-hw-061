@@ -1,7 +1,7 @@
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
-  --accent-color: #2196f3;
+  --accent-color:#4D5AE5;
   --bj-color: #ffffff;
   --bj-hero: #2f303a;
   --bj-about: #e5e5e5;
@@ -232,7 +232,7 @@ header {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../images/bg-team.jpg);
+    url(../images/people-office2x.jpg);
   background-color: var(--bj-hero);
   background-size: cover;
   background-repeat: no-repeat;
