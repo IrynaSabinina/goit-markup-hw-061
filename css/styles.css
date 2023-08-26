@@ -484,8 +484,8 @@ header {
 }
 
 .social-list-icon {
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
   fill: var(--social-icon);
   transition-property: fill;
   transition-duration: var(--time-transformatiom);
