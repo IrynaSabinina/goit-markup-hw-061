@@ -1307,9 +1307,10 @@ font-weight: 500;
   text-transform: capitalize;
 }
 
-.lients-list{
-  display: grid;
-grid-template-columns: auto auto auto;
+.clients-list{
+display: grid;
+grid-template-columns: 190px 190px;
+gap: 72px 16px;
 
 }
 }
