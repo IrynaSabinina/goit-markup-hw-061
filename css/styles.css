@@ -1,11 +1,11 @@
 :root {
   --primary-text-color: #757575;
-  --title-text-color: #212121;
+  --title-text-color: #2E2F42;
   --accent-color:#4D5AE5;
   --bj-color: #ffffff;
   --bj-hero: #2f303a;
   --bj-about: #e5e5e5;
-  --bj-team: #f5f4fa;
+  --bj-team: #F4F4FD;
   --social-icon: #afb1b8;
   --social-icon-hover: #ffffff;
   --iteam: 3;
@@ -286,7 +286,7 @@ header {
   display: block;
   content: "";
   height: 120px;
-  background: #f5f4fa;
+  background: #F4F4FD;
   border-radius: 4px;
   margin-bottom: 30px;
   background-position: center;
@@ -347,6 +347,7 @@ header {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  text-transform: capitalize;
 }
 
 .works-list {
@@ -414,7 +415,7 @@ header {
 
 .person-card {
   box-sizing: border-box;
-  width: 270px;
+  width: 264px;
   height: auto;
   background-color: var(--bj-color);
   border-radius: 0px 0px 4px 4px;
