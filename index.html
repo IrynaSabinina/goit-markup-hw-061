@@ -16,6 +16,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/styles-burger-mobile.css"/>
+    <link rel="stylesheet" href="./css/styles-modal.css"/>
   </head>
   <body>
     <header>
@@ -130,7 +132,7 @@ problem to walk away with the perfect and creative solution.
             <li class="works-iteams">
               <img
                 class="works-img"
-                src="./images/desctop.jpg"
+                src="./images/2x/desctop2x.png"
                 alt="data"
                 width="360"
               />
@@ -139,7 +141,7 @@ problem to walk away with the perfect and creative solution.
             <li class="works-iteams">
               <img
                 class="works-img"
-                src="./images/phons.jpg"
+                src="./images/2x/phones2x.png"
                 alt="mobile adaptive"
                 width="360"
               />
@@ -148,7 +150,7 @@ problem to walk away with the perfect and creative solution.
             <li class="works-iteams">
               <img
                 class="works-img"
-                src="./images/phon.jpg"
+                src="./images/2x/phone2x.png"
                 alt="content"
                 width="360"
               />
@@ -164,7 +166,19 @@ problem to walk away with the perfect and creative solution.
 
           <ul class="team-list list">
             <li class="person-card">
-              <img src="./images/guerrero.jpg" alt="portrait" width="264">
+
+
+              <picture>
+                <source media="(min-width: 768px)" srcset="./images/2x/team2x/guerrero2x.png">
+                <source src="./images/guerrero.jpg">
+                <img src="./images/guerrero.jpg" alt="portrait" style="width:auto;" >
+               
+             </picture>
+
+
+
+
+              
               <div class="person-text">
                 <h3 class="team-name">Mark Guerrero</h3>
                 <p class="team-position" lang="en">Product Designer</p>
@@ -214,7 +228,16 @@ problem to walk away with the perfect and creative solution.
               </div>
             </li>
             <li class="person-card">
-              <img src="./images/ford.jpg" alt="portrait" width="264" />
+
+
+              <picture>
+                <source media="(min-width:768px)" srcset="./images/2x/team2x/ford2x.jpg">
+                <source src="./images/ford.jpg">
+                <img src="./images/ford.jpg" alt="portrait" style="width:auto;">
+               
+             </picture>
+
+              <!-- <img src="./images/ford.jpg" alt="portrait" width="264" /> -->
               <div class="person-text">
                 <h3 class="team-name">Tom Ford</h3>
                 <p class="team-position" lang="en">Frontend Developer</p>
@@ -267,7 +290,17 @@ problem to walk away with the perfect and creative solution.
               </div>
             </li>
             <li class="person-card">
-              <img src="./images/garcia.jpg" alt="portrait" width="264" />
+
+
+              <picture>
+                <source media="(min-width: 768px)" srcset="./images/2x/team2x/garsia2x.jpg">
+                <source src="./images/garcia.jpg">
+                <img src="./images/garcia.jpg" alt="portrait" style="width:auto;" >
+               
+             </picture>
+
+
+              <!-- <img src="./images/garcia.jpg" alt="portrait" width="264" /> -->
               <div class="person-text">
                 <h3 class="team-name">Camila Garcia</h3>
                 <p class="team-position" lang="en">Marketing</p>
@@ -318,7 +351,19 @@ problem to walk away with the perfect and creative solution.
               </div>
             </li>
             <li class="person-card">
-              <img src="./images/wilson.jpg" alt="portrait" width="264" />
+
+              <picture>
+                <source media="(min-width: 768px)" srcset="./images/2x/team2x/wilson2x.jpg">
+                <source src="./images/wilson.jpg">
+                <img src="./images/wilson.jpg" alt="portrait" style="width:auto;" >
+               
+             </picture>
+
+
+
+
+
+              <!-- <img src="./images/wilson.jpg" alt="portrait" width="264" /> -->
               <div class="person-text">
                 <h3 class="team-name">Daniel Wilson</h3>
                 <p class="team-position" lang="en">UI Designer</p>
@@ -618,65 +663,71 @@ problem to walk away with the perfect and creative solution.
       </button>
 
       <ul class="mobile-menu">
-        <li><a href="./index.html" class="link burger-list accent">Studio</a></li>
-        <li><a href="./portfolio.html" class="link burger-list">Portfolio</a></li>
-        <li><a href="" class="link burger-list">Contacts</a></li>
+        <li><a href="./index.html" class="burger-list accent">Studio</a></li>
+        <li><a href="./portfolio.html" class="burger-list">Portfolio</a></li>
+        <li><a href="" class="burger-list">Contacts</a></li>
         
       </ul>
       <address class="burger-adress">
 
-        <a class="burger-list burger-list-phone" > +11 (000) 111-11-11</a >
+        <a class=" burger-list-phone" > +11 (000) 111-11-11</a >
         
   <a class="burger-adress-mail" >
              info@devstudio.com</a
            >
+           <div class="burger-social-icons">
+             <!-- <h3 class="tittle-action">Social media</h3> -->
+             <ul class="footer-social-icons">
+               <li class="footer-social-list list">
+                 <a href="" class="social-list-iteam">
+                   <svg class="footer-social-list-icon" >
+                     <use
+                     href="./images/icons.svg#icon-instagram-2"
+                     width="16px"
+                     length="16px"
+                   ></use>
+                   </svg>
+                 </a>
+               </li>
+               <li class="footer-social-list list">
+                 <a href="" class="social-list-iteam">
+                   <svg class="footer-social-list-icon">
+                     <use
+                     href="./images/icons.svg#icon-twitter-1"  
+                      
+                     ></use>
+                   </svg>
+                 </a>
+               </li>
+               <li class="footer-social-list list">
+                 <a href="" class="social-list-iteam">
+                   <svg class="footer-social-list-icon">
+                     <use
+                       href="./images/icons.svg#icon-facebook-1"
+                     
+                     ></use>
+                   </svg>
+                 </a>
+               </li>
+               <li class="footer-social-list list">
+                 <a href="" class="social-list-iteam">
+                   <svg class="footer-social-list-icon">
+                     <use
+                       href="./images/icons.svg#icon-linkedin-1"
+                    
+                     ></use>
+                   </svg>
+                 </a>
+               </li>
+             </ul> 
+           </div>
       </address>
-      <div class="burger-social-icons">
-        <!-- <h3 class="tittle-action">Social media</h3> -->
-        <ul class="footer-social-icons">
-          <li class="footer-social-list list">
-            <a href="" class="social-list-iteam">
-              <svg class="footer-social-list-icon" >
-                <use
-                href="./images/icons.svg#icon-instagram-2"
-                width="16px"
-                length="16px"
-              ></use>
-              </svg>
-            </a>
-          </li>
-          <li class="footer-social-list list">
-            <a href="" class="social-list-iteam">
-              <svg class="footer-social-list-icon">
-                <use
-                href="./images/icons.svg#icon-twitter-1"  
-                 
-                ></use>
-              </svg>
-            </a>
-          </li>
-          <li class="footer-social-list list">
-            <a href="" class="social-list-iteam">
-              <svg class="footer-social-list-icon">
-                <use
-                  href="./images/icons.svg#icon-facebook-1"
-                
-                ></use>
-              </svg>
-            </a>
-          </li>
-          <li class="footer-social-list list">
-            <a href="" class="social-list-iteam">
-              <svg class="footer-social-list-icon">
-                <use
-                  href="./images/icons.svg#icon-linkedin-1"
-               
-                ></use>
-              </svg>
-            </a>
-          </li>
-        </ul> 
-      </div>
+
+
+
+
+
+      
     </div>
 
 
