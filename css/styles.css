@@ -504,6 +504,36 @@ color: var(--bj-team);
 }
 
 
+
+@media screen and (min-width:1158px){
+  .hero{
+    background-image:linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.70),
+      rgba(46, 47, 66, 0.70)
+    ),
+      url(../images/2x/team2x/hero2x.png)
+  }
+}
+  /* @media only screen and (-webkit-min-device-pixel-ratio:2),
+  (min-resolution:192dpi),
+  (min-resolution:2dppx){
+    .hero{
+
+      background-image:linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.70),
+        rgba(46, 47, 66, 0.70)
+      ),
+        url(../images/1x/hero1x.png);
+    }
+  }
+} */
+
+
+
+
+
 @media (max-width:1158px){
 
   .specifics-title {
@@ -630,13 +660,12 @@ text-transform: uppercase;
     padding-bottom: 112px;
     margin-left: auto;
     margin-right: auto;
-    
     background-image:linear-gradient(
-      to right,
-      rgba(46, 47, 66, 0.70),
-      rgba(46, 47, 66, 0.70)
-    ),
-      url(../images/1x/people-office1x.png);
+        to right,
+        rgba(46, 47, 66, 0.70),
+        rgba(46, 47, 66, 0.70)
+      ),
+        url(../images/1x/hero1x.png);
     background-color: var(--title-text-color);
     background-size: cover;
     background-repeat: no-repeat;
@@ -1092,12 +1121,12 @@ text-align: center;
   /* max-height: 600px; */
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(
+  background-image:linear-gradient(
     to right,
     rgba(46, 47, 66, 0.70),
     rgba(46, 47, 66, 0.70)
   ),
-    url(../images/2x/people-office2x.png);
+    url(../images/1x/hero1x.png);
   background-color: var(--bj-hero);
   background-size: cover;
   background-repeat: no-repeat;
